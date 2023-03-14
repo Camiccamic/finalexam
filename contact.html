@@ -28,7 +28,7 @@
     </ul>
 
 
-    <div id="form">
+    <div class="container shadow text-center" id="dogform">
         <h1>To contact Strykers Dog Emporium please fill out the information below:</h1>
 
         <form action="contact.html" method="post" enctype="application/x-www-form-urlencoded">
@@ -44,23 +44,17 @@
                     <input id="nameField" type="text" required minlength="6" maxlength="25" name="ownersName">
                 </p>
                 <p>
-                    <label for="nameField"> Owner's email </label>
+                    <label for="nameField"> Owner's email: </label>
                     <input id="nameField" type="email" name="ownersEmail" id="ownersEmail">
                 </p>
 
                 <p>
-                    <label for="nameField"> Owner's phone number </label>
-                    <input id="nameField" type="type" name="ownersEmail" id="ownersPhoneNumber">
+                    <label for="nameField"> Owner's phone number: </label>
+                    <input id="nameField" type="tel" name="ownersPhoneNumber" id="ownersPhoneNumber">
                 </p>
 
-
-
-
-
-
-
-
-                <textarea name="feedbackText"></textarea><br />
+                <p>Please add any comments below</p>
+                <textarea name="feedbackText"></textarea>
 
                 <input type="submit">
 
@@ -71,8 +65,6 @@
     </div>
 
 
-
-    </div>
     <div class="footer">
         <P>Copyright Dog King Industries</P>
     </div>
