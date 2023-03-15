@@ -7,7 +7,6 @@ html {
 
 .hero-image {
     background-image: url("/images/saurr.jpg");
-    margin-top: 25px;
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -39,17 +38,24 @@ html {
     background-color: #555;
 }
 
+.topbar {
+    color: purple
+}
 
 .topbar li {
-    list-style-type: square;
-    text-align: justify;
-    color: whitesmoke;
     display: inline;
     padding-right: 50px;
     padding-left: 100px;
     font-size: larger;
 }
 
+.topbackground {
+    background-color: aqua;
+    padding-bottom: 5px;
+    text-align: center;
+    list-style-type: square;
+    color: purple
+}
 
 .heading {
     margin-left: 5%;
@@ -78,12 +84,12 @@ html {
     background-color: burlywood;
 }
 
-
 .footer {
+    position: relative;
     bottom: 0;
     left: 0;
     width: 100%;
-    height: 50px;
+    height: 25px;
     background-color: #D0DAEE;
 }
 
@@ -94,9 +100,38 @@ html {
 #boneimage {
     height: 200px;
     width: 200px;
+}
 
+#toyimage {
+    height: 200px;
+    width: 200px;
+}
+
+#clothesimage {
+    height: 200px;
+    width: 200px;
 }
 
 .product {
     text-align: center;
+}
+
+.footercontact {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #D0DAEE;
+    height: 25px;
+}
+
+.col-md-4 {
+    color: purple;
+    background-color: aqua;
+    padding-top: 5px;
+}
+
+.bottompage {
+    background-color: aqua;
+    padding-bottom: 10px;
 }
