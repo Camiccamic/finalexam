@@ -11,7 +11,7 @@ html {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    height: 700px;
+    height: 600px;
 }
 
 .hero-text {
@@ -39,7 +39,9 @@ html {
 }
 
 .topbar {
-    color: purple
+    color: purple;
+    text-align: center;
+
 }
 
 .topbar li {
@@ -51,7 +53,7 @@ html {
 
 .topbackground {
     background-color: aqua;
-    padding-bottom: 5px;
+    padding-bottom: 1px;
     text-align: center;
     list-style-type: square;
     color: purple
@@ -59,7 +61,7 @@ html {
 
 .heading {
     margin-left: 5%;
-    color: white
+    color: gold;
 }
 
 .paragraph {
@@ -134,4 +136,61 @@ html {
 .bottompage {
     background-color: aqua;
     padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: large;
+    text-align: center;
+}
+
+
+.footerproduct {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 25px;
+    background-color: #D0DAEE;
+    text-align: left;
+}
+
+.producthead {
+    color: gold;
+    text-align: center;
+    background-color: purple;
+    padding-bottom: 10px;
+
+}
+
+.contactinfo {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.contacttable {
+    padding-left: 810px;
+}
+
+.productmain {
+    background-color: aqua;
+    height: 300px;
+    ;
+}
+
+.producttableinfo {
+    background-color: aqua;
+    height: 50px;
+    padding-top: 0;
+}
+
+
+table,
+th,
+td {
+    border: 2px solid black;
+    background-color: aqua;
+    border-radius: 50px;
+    padding: 5px;
+    width: 400px;
+    margin-left: 50px;
+    text-align: center;
+
 }
