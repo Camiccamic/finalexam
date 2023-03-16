@@ -141,7 +141,6 @@ html {
     text-align: center;
 }
 
-
 .footerproduct {
     position: fixed;
     bottom: 0;
@@ -157,7 +156,6 @@ html {
     text-align: center;
     background-color: purple;
     padding-bottom: 10px;
-
 }
 
 .contactinfo {
@@ -171,26 +169,60 @@ html {
 
 .productmain {
     background-color: aqua;
-    height: 300px;
+    height: 350px;
     ;
 }
 
 .producttableinfo {
     background-color: aqua;
-    height: 50px;
+    height: 30px;
     padding-top: 0;
+    padding-left: 50px;
 }
-
 
 table,
 th,
 td {
     border: 2px solid black;
     background-color: aqua;
-    border-radius: 50px;
-    padding: 5px;
+    border-radius: 20px;
     width: 400px;
     margin-left: 50px;
     text-align: center;
+    padding-left: 50px;
+}
+
+.tablecontact {
+    border: 2px solid black;
+    background-color: aqua;
+    border-radius: 30px;
+    width: 440px;
+    margin-left: 740px;
+    text-align: center;
+}
+
+.productlist {
+    background-color: aqua;
+    height: fit-content;
+    padding-left: 50px;
+}
+
+.productitems {
+    list-style-type: square;
+    padding-top: 5px;
+    margin-top: 5px;
+    border-top: 5px padding
+}
+
+#boneimage {
+    height: 200px;
+    width: 200px;
+}
+
+.col-md-3 {
+    color: purple;
+    background-color: aqua;
+    padding-bottom: 250px;
+    padding-top: 10px;
 
 }
