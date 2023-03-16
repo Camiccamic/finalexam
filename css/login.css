@@ -94,3 +94,11 @@ a {
     color: purple;
     text-align: center;
 }
+
+.loginpage {
+    margin: 0;
+    padding-top: 50p;
+    background-color: #6abadeba;
+    font-family: 'Arial';
+    height: 800px;
+}
