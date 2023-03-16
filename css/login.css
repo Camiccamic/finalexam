@@ -1,0 +1,96 @@
+/* .loginpage {
+    margin: 0;
+    padding-top: 50p;
+    background-color: #6abadeba;
+    font-family: 'Arial';
+}
+
+.login {
+    width: 382px;
+    overflow: hidden;
+    margin: auto;
+    margin: 20 0 0 450px;
+    padding-left: 80px;
+    padding-right: 80px;
+    background: rgb(8, 76, 8);
+    border-radius: 50px;
+}
+
+h2 {
+    text-align: center;
+    color: #277582;
+    padding-top: 100px;
+}
+
+label {
+    color: aqua;
+    font-size: 17px;
+}
+
+#Uname {
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+}
+
+#Pass {
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+
+}
+
+#log {
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 17px;
+    padding-left: 7px;
+    color: blue;
+
+
+}
+
+span {
+    color: white;
+    font-size: 17px;
+}
+
+a {
+    float: right;
+    background-color: grey;
+} */
+
+.footeruserpassword {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 25px;
+    background-color: #D0DAEE;
+    text-align: left;
+}
+
+.topbar li {
+    display: inline;
+    padding-right: 50px;
+    padding-left: 100px;
+    font-size: larger;
+}
+
+.topbackground {
+    background-color: aqua;
+    padding-bottom: 1px;
+    text-align: center;
+    list-style-type: square;
+    color: purple
+}
+
+.topbar {
+    color: purple;
+    text-align: center;
+}
