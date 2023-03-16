@@ -142,6 +142,7 @@ html {
     padding-top: 10px;
     font-size: large;
     text-align: center;
+
     max-width: 30%;
     margin: 0 auto;
 
@@ -173,6 +174,8 @@ html {
     padding-left: 810px;
 }
 
+
+
 .productmain {
     background-color: aqua;
     height: 350px;
@@ -203,7 +206,7 @@ td {
     background-color: aqua;
     border-radius: 30px;
     width: 440px;
-    margin-left: 740px;
+
     text-align: center;
 }
 
