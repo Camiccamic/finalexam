@@ -181,32 +181,34 @@ html {
 
 
 .productmain {
-    background-color: aqua;
+
     height: 350px;
     ;
 }
 
 .producttableinfo {
-    background-color: aqua;
+
     height: 30px;
     padding-top: 0;
     padding-left: 50px;
+    text-align: center;
 }
 
 table,
 th,
 td {
     border: 2px solid black;
-    background-color: aqua;
+
     width: 400px;
     margin-left: 50px;
     text-align: center;
     padding-left: 50px;
+    margin: 0 auto;
 }
 
 .tablecontact {
     border: 2px solid black;
-    background-color: aqua;
+
     border-radius: 30px;
     width: 440px;
     margin: 0 auto;
@@ -214,17 +216,25 @@ td {
 }
 
 .productlist {
-    background-color: aqua;
+
     height: fit-content;
     padding-left: 50px;
+    text-align: center;
+    margin: 0 auto;
 }
 
-.productitems {
+.listparent {
     list-style-type: square;
     padding-top: 5px;
     margin-top: 5px;
-    border-top: 5px padding
+    border-top: 5px padding;
 }
+
+.productitems {
+    display: inline-block;
+    text-align: left;
+}
+
 
 .comment {
     padding-top: 10px;
@@ -237,7 +247,7 @@ td {
 
 .col-md-3 {
     color: purple;
-    background-color: aqua;
+
     padding-bottom: 250px;
     padding-top: 10px;
 
