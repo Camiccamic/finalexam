@@ -22,9 +22,9 @@
 
     <div class="topbackground">
         <ul class="topbar">
+            <li><a href="index.html"> Home</a></li>
             <li><a href="Product.html"> Product</a></li>
             <li><a href="contact.html"> Contact</a></li>
-            <li><a href="userlogin.html"> User Login</a></li>
             <li><a href="user_registration.html"> User Registration</a></li>
         </ul>
     </div>
@@ -38,12 +38,13 @@
                 <label><b>Dog's name
                     </b>
                 </label>
-                <input type="text" name="Uname" id="Uname" placeholder="Username">
+                <input type="text" name="Uname" id="Uname" placeholder="Dog Name">
                 <br><br>
-                <label><b>Owner's password
+                <label><b>Owner's password<br> (Minimum of 4 characters)
                     </b>
                 </label>
-                <input type="Password" name="Pass" id="Pass" placeholder="Password">
+                <input type="Password" required="required" minlength="4" maxlength="6" name="Pass" id="Pass"
+                    placeholder="Password">
                 <br><br>
                 <input type="button" name="log" id="log" value="Log In Here">
                 <br><br>
