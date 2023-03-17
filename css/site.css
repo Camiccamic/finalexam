@@ -115,6 +115,12 @@ html {
     width: 200px;
 }
 
+#dogfoodimage {
+    height: 200px;
+    width: 200px;
+}
+
+
 .product {
     text-align: center;
 }
@@ -218,6 +224,10 @@ td {
     padding-top: 5px;
     margin-top: 5px;
     border-top: 5px padding
+}
+
+.comment {
+    padding-top: 10px;
 }
 
 #boneimage {
