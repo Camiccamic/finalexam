@@ -6,7 +6,7 @@ html {
 }
 
 .hero-image {
-    background-image: url("/images/saurr.jpg");
+    background-image: url(../images/saurr.jpg);
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
