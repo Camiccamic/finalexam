@@ -141,15 +141,12 @@ html {
 }
 
 .bottompage {
-
     padding-bottom: 10px;
     padding-top: 10px;
     font-size: large;
     text-align: center;
-
     max-width: 30%;
     margin: 0 auto;
-
 }
 
 .footerproduct {
@@ -178,27 +175,24 @@ html {
     padding-left: 810px;
 }
 
-
-
 .productmain {
-
     height: 350px;
-    ;
 }
 
 .producttableinfo {
-
     height: 30px;
     padding-top: 0;
     padding-left: 50px;
     text-align: center;
+    font-weight: 600;
+    font-size: larger;
+    padding-bottom: 50px;
 }
 
 table,
 th,
 td {
     border: 2px solid black;
-
     width: 400px;
     margin-left: 50px;
     text-align: center;
@@ -235,7 +229,6 @@ td {
     text-align: left;
 }
 
-
 .comment {
     padding-top: 10px;
 }
@@ -247,8 +240,6 @@ td {
 
 .col-md-3 {
     color: purple;
-
     padding-bottom: 250px;
     padding-top: 10px;
-
 }
