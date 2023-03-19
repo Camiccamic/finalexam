@@ -25,14 +25,17 @@ body {
     background-repeat: repeat;
     background-color: rgba(255, 255, 255, 0.6);
     background-blend-mode: lighten;
+
 }
 
 h1 {
     color: black;
     font-family: Arial;
+    font-weight: 900;
     text-align: center;
     padding-bottom: 25px;
     padding-top: 100px;
+
 }
 
 .footer {
@@ -76,13 +79,14 @@ label {
     text-align: center;
     width: 150px;
     text-align: right;
+    font-weight: 500;
 }
 
 .register {
     text-align: center;
     display: inline-block;
     width: 150px;
-    padding-left: 130px;
+    padding-left: 110px;
 }
 
 form {

@@ -24,41 +24,25 @@
         <a href="user_registration.html"> User Registration</a>
     </div>
 
-    <div class="loginpage">
-        <h2>Login Page</h2>
-        <br>
-        <div class="login">
-            <form id="login" method="get" action="login.php">
-                <label><b>Dog's name
-                    </b>
-                </label>
-                <input type="text" name="Uname" id="Uname" placeholder="Dog Name">
-                <br><br>
-                <label><b>Owner's password<br> (Minimum of 4 characters)
-                    </b>
-                </label>
-                <input type="Password" required="required" minlength="4" maxlength="6" name="Pass" id="Pass"
-                    placeholder="Password">
-                <br><br>
-                <input type="button" name="log" id="log" value="Log In Here">
-                <br><br>
-                <input type="checkbox">
-
-
-                <span>Remember me</span>
-                <br><br>
-
+    <div class="container">
+        <div class="loginpage">
+            <h1>To access your account please<br>
+                login below</h1>
+            <form action="submit-form.php" method="post">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required><br>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" pattern="(?=.*\d)(?=.* [a-z])(?=.*[A-Z]).{8,}"
+                    title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters"
+                    required><br>
+                <div class="register">
+                    <input type="submit" value="Register">
+                </div>
             </form>
+            <div class="footeruserpassword">
+                <P>Copyright Dog King Industries</P>
+            </div>
         </div>
-    </div>
-
-    <div class="footeruserpassword">
-        <P>Copyright Dog King Industries</P>
-    </div>
 </body>
 
 </html>
-
-
-
-</body>

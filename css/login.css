@@ -31,7 +31,7 @@
 .loginpage {
     margin: 0;
     padding-top: 50p;
-    background-color: #6abadeba;
+
     font-family: 'Arial';
     background-size: cover;
     text-align: center;
@@ -59,4 +59,44 @@
 .topnav a.active {
     background-color: rgb(235, 142, 235);
     color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+label {
+    text-align: center;
+    width: 150px;
+    text-align: right;
+    font-weight: 500;
+}
+
+.register {
+    text-align: center;
+    display: inline-block;
+    width: 150px;
+    padding-left: 110px;
+}
+
+form {
+    text-align: center;
+}
+
+body {
+    background: url(../images/dogwallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-repeat: repeat;
+    background-color: rgba(255, 255, 255, 0.6);
+    background-blend-mode: lighten;
+}
+
+h1 {
+    color: black;
+    font-family: Arial;
+    font-weight: 900;
+    text-align: center;
+    padding-bottom: 25px;
+    padding-top: 100px;
 }
