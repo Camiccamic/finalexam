@@ -18,13 +18,13 @@
     text-align: center;
 }
 
-table {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 100%;
-    font-weight: bold;
-    background-color: white;
-    text-align: center;
-    margin: 0 auto;
+body {
+    background: url(../images/dogwallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-repeat: repeat;
+    background-color: rgba(255, 255, 255, 0.6);
+    background-blend-mode: lighten;
 }
 
 h1 {
@@ -32,8 +32,7 @@ h1 {
     font-family: Arial;
     text-align: center;
     padding-bottom: 25px;
-    padding-top: 25px;
-
+    padding-top: 100px;
 }
 
 .footer {
@@ -65,6 +64,27 @@ h1 {
 }
 
 .topnav a.active {
-    background-color: #04AA6D;
+    background-color: rgb(235, 142, 235);
     color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+label {
+    text-align: center;
+    width: 150px;
+    text-align: right;
+}
+
+.register {
+    text-align: center;
+    display: inline-block;
+    width: 150px;
+    padding-left: 130px;
+}
+
+form {
+    text-align: center;
 }
